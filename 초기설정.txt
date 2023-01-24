@@ -1,0 +1,11 @@
+.prettierrc -> 전반적으로 적용
+코드 끝 세미콜론 허용 X
+들여쓰기 2 tab
+기본 문자열 따옴표 : ''
+
+.eslintrc -> 타입스크립트 관련
+// Airbnb style guide 적용
+// TypeScript ESLint recommanded style 적용
+'linebreak-style': 0, 줄바꿈 관련 설정 -> LF로 고정
+semi: 0, 선언 끝 세미콜론 사용 X
+'no-console': 0, console.log 관련 경고 무시
